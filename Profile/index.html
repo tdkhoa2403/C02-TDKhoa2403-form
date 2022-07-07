@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../Fonts/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="./Access/style.css">
+    <title>Document</title>
+</head>
+<body> 
+    <div id="wrapper">
+        <header>
+            <div class="brand">
+                <div class="header__logo logo--brand">
+                    <i class="fa-brands fa-asymmetrik"></i>
+                </div>
+                <div class="header__name name--brand">
+                    <p><b>Khoa đẹp trai</b></p>
+                </div>
+            </div>
+            <div class="header__nav">
+                <ul>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Insights</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <hr>
+        <div id="form">
+            <div class="form form--title">
+                <h1>Welcome to my form </h1>
+            </div>
+            <div class="action">
+                <div class="info">
+                    <div class="name">
+                        <label for="name">Your name</label><br>
+                        <input type="text" id="name" name="your_name">
+                    </div>
+
+                    <div class="email">
+                        <label for="email">Your email</label><br>
+                        <input type="email" id="email" name="your_email">
+                    </div>
+                </div>
+
+                <div class="selection">
+                    <div class="design">
+                        <label for="interested">What you are interested</label><br>
+                        <select name="design" id="interested">
+                            <option value="Animation">Animation</option>
+                            <option value="Branding">Branding</option>
+                            <option value="Mobile">Mobile App</option>
+                            <option value="Product">Product Design</option>
+                            <option value="Web">Web Design</option>
+                        </select>
+                    </div>
+                    <div class="project">
+                        <label for="project_budget">Project Budget</label><br>
+                        <select name="project" id="project_budget">
+                            <option value="Animation">Select your budget</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form__message">
+                    <div class="message">
+                        <label for="message">Message</label><br>
+                        <textarea name="" id="message" cols="64" rows="7" placeholder="Let tell us know your project about"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="send__btn">
+                <input type="submit" value="Just Send">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

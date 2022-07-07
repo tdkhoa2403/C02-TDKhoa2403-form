@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 1536px;
+    height: 746px;
+    background-image: url(./Image/photo-1605810230434-7631ac76ec81.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#signIn {
+    width: 800px;
+    height: 550px;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 33px rgba(58, 114, 180, 0.4);
+    padding: 50px;
+}
+
+.title {
+    border-bottom:5px solid aqua;
+    width: 120px;
+    padding-bottom: 10px;
+}
+.title p {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.intro {
+    margin-top: 22px;
+    color: #8d8d8d;
+}
+.intro p {
+    margin-bottom: 5px;
+}
+
+form {
+    width: 575px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+form #username, form #userpassword, form #useremail {
+    width: 100%;
+    height: 32px;
+    margin-bottom: 44px;
+    background: transparent;
+    border-bottom: 1px solid white;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+form .actions {
+    display: flex;
+    align-items: center;
+}
+form .actions #remember-me {
+    width: 18px;
+    height: 18px;
+    margin-right: 23px;
+}
+form .actions label {
+    color: #fff;
+    margin-right: 262px;
+    width: 125px;
+}
+form .actions .signInBtn input {
+    background-color: transparent;
+    font-size: 1.1rem;
+    color: #fff;
+    width: 160px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid white;
+    position: relative;
+    transition: 0.5s;
+}
+form .actions .signInBtn input:hover {
+    background-color: aqua;
+    transform: scale(1.1);
+    border: none;
+}
+form .actions .signInBtn:active {
+    background: rgb(3, 123, 123);
+    border: none;
+}
+
+.signInMethods {
+    width: 575px;
+    display: flex;
+    justify-content: space-between;
+}
+.signIn_Facebook, .signIn_Google {
+    width: 224px;
+    height: 45px;
+    border: 1px solid white;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: 0.5s;
+}
+.signIn_Facebook i, .signIn_Google i {
+    margin-right: 15px;
+}
+.signIn_Facebook:hover, .signIn_Google:hover {
+    background: aqua;
+    border: none;
+    transform: translateY(-10px);
+}
+.signIn_Facebook:active, .signIn_Google:active {
+    background: rgb(3, 123, 123);
+    border: none;
+}
